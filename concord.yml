@@ -1,5 +1,7 @@
+configuration:
+  arguments:
+    name: YOU
 
-
-Flows:
+flows:
   default:
-    -log: "something"
+    - log: "Hello, ${name}"
